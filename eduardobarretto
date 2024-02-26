@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Desafio DIO web</title>
+</head>
+<body>
+<h1><u>Primeiros passos em HTML</u></h1>
+<hr>
+<h2><i> primeiro módulo aprendi sobre:</i></h2>
+<ol>
+    <li><a href="#História">História da computação.</a></li>
+    <li><a href="#Client x Server">Client x Server.</a></li>
+    <li><a href="#Teóricos"> teóricos e práticos iniciais de HTML.</a></li>
+    <li>Referências.</li>
+</ol>
+<ol>
+<h3 id="História"><li>História da computação</li></h3>
+    <ul>
+        <li><strong><sub>Eletromecânicos (1940 - 1950): Durante a Segunda Guerra Mundial</sub>, os primeiros computadores eletrônicos surgiram, como o Colossus na Inglaterra e o ENIAC nos Estados Unidos, que eram utilizados principalmente para fins militares.</strong></li>
+        <li>Esses computadores eram grandes, consumiam muita energia e usavam válvulas eletrônicas para processamento de dados.</li>
+    </ul>
+        
+<h3><li><del>Transição para Transistores (1950 - 1960):</li></h3>
+    <ul>
+            <li>Na década de <sup>1950</sup>, os transistores começaram a substituir as válvulas eletrônicas nos computadores, tornando-os menores, mais rápidos e mais confiáveis.</li>
+            <li>Surgiram computadores de segunda geração, como o IBM 1401, que eram mais acessíveis para uso comercial.</li>
+        </ul>
+        
+<h3><li>Era dos Circuitos Integrados (1960 - 1970):</li></h3>
+        <ul>
+            <li>O desenvolvimento dos circuitos integrados na década de 1960 permitiu a criação de computadores de terceira geração, mais compactos e eficientes em termos de energia.</li>
+            <li>Os computadores dessa época, como o IBM System/360, eram capazes de lidar com uma variedade maior de tarefas e processar dados de forma mais eficaz.</li>
+        </ul>
+<h3><li>Revolução dos Computadores Pessoais (1970 - 1980):</li></h3>
+        <ul>
+            <li>A década de 1970 viu o surgimento dos primeiros computadores pessoais, como o Altair 8800 e o Apple I, que eram acessíveis ao público em geral.</li>
+            <li>O lançamento do IBM PC em 1981 e a popularização dos sistemas operacionais como o MS-DOS e o Mac OS levaram à explosão dos computadores pessoais.</li>
+        </ul>
+        
+<h3><li>Era da Internet e da Computação Moderna (1990 - Presente):</li></h3>
+        <ul>
+            <li>Nos anos 1990, a internet se tornou amplamente acessível ao público, transformando radicalmente a forma como as pessoas se comunicam, acessam informações e interagem globalmente.</li>
+            <li>A computação em nuvem, a inteligência artificial, o aprendizado de máquina e outras tecnologias emergentes revolucionaram ainda mais a computação, permitindo avanços significativos em diversas áreas, como saúde, educação, transporte e entretenimento.</li>
+            <li>Hoje, os computadores estão em todos os lugares, desde smartphones e dispositivos inteligentes até supercomputadores e sistemas de IA sofisticados, impulsionando a inovação e moldando o mundo em que vivemos.</li>
+        </ul>
+
+<h4 id="Client x Server">Clients x Server:</h4>
+<ol>
+    <h5><li><strong>Centralizados (Décadas de 1950 - 1970):</strong></li></h5>
+    <ul>
+        <li>Nos estágios iniciais da computação, os sistemas eram predominantemente centralizados, com um único mainframe atendendo a várias estações de trabalho.</p></li>
+        <li>Os mainframes funcionavam como servidores, executando aplicativos e armazenando dados centralizados, enquanto os terminais, ou clientes, forneciam acesso ao mainframe para entrada e saída de dados.</li>
+    </ul>
+    <h6><li><strong>Redes Locais (Décadas de 1970 - 1980):</strong></li></h6>
+    <ul>
+        <li>Com o desenvolvimento de redes locais (LANs), os clientes e servidores começaram a interagir dentro de uma área geográfica limitada, como um escritório ou campus.</li>
+        <li>Os servidores centralizavam recursos como impressoras, arquivos e serviços de e-mail, enquanto os clientes acessavam esses recursos por meio da rede local.</li>
+    </ul>
+    <p><li><strong>Expansão da Internet (Décadas de 1990 - Presente):</strong></li></p>
+    <ul>
+        <li>A popularização da Internet na década de 1990 levou a uma mudança significativa na arquitetura de clientes e servidores.</li>
+        <li>Os servidores web começaram a fornecer serviços acessíveis globalmente, como sites, e-commerce, e-mail e aplicativos baseados na web, enquanto os clientes acessavam esses serviços por meio de navegadores da web.</li>
+        <li>Surgiram novos modelos de negócios, como o software como serviço (SaaS), em que os aplicativos são executados em servidores remotos e acessados pelos clientes via Internet.</li>
+    </ul>
+    <h4 id="teóricos"><li><strong>Conceitos teóricos e práticos iniciais de HTML.</strong></li></h4>
+    <ul>
+        <li><mark>Computação em Nuvem (Década de 2000 - Presente):A computação em nuvem revolucionou a relação entre clientes e servidores</mark>, permitindo que empresas e indivíduos aluguem recursos de computação, como armazenamento e poder de processamento, sob demanda.</li>
+        <li><small> provedores de serviços em nuvem</small>, como Amazon Web Services (AWS), Microsoft Azure e Google Cloud Platform, oferecem uma ampla gama de serviços e recursos escaláveis, acessíveis a partir de qualquer lugar do mundo.</li>
+        <li>Os clientes agora podem implantar aplicativos e armazenar dados na nuvem, reduzindo a necessidade de investir em infraestrutura física e permitindo maior flexibilidade e agilidade nos negócios.</li>
+     <blockquote><i>- Werner Vogels</i></blockquote>
+    
+     <p>Referências:<abbr title="world wide web"> https://chat.openai.com</abbr></p>
+     <form action="/processar-dados" method="post"></form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br>
+        
+        <label for="e-mail">E-mail:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    </ul>
+</ol>
+</body>
+</html>
